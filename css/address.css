@@ -33,14 +33,14 @@
     background-position: center;
     background-repeat: no-repeat;
 
-    -webkit-mask-image: url(solid/address-card.svg);
+    /* -webkit-mask-image: url(solid/address-card.svg);
     mask-image: url(solid/address-card.svg);
     mask-size: 100vmin;
     -webkit-mask-size: 100vmin;
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
     mask-position: center;
-    -webkit-mask-position: center;
+    -webkit-mask-position: center; */
 }
 
 .btn-size{
