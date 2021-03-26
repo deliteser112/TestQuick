@@ -28,16 +28,19 @@
     margin-top: 50px;
     width: 100px;
     height: 100px;
-    background-image:  url(../images/dog1.jpg);
+    background-image:  url(solid/address-card.svg), url(../images/dog1.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 
-    /* mask-image: url(solid/address-card.svg); */
     -webkit-mask-image: url(solid/address-card.svg);
+    mask-image: url(solid/address-card.svg);
     mask-size: 100vmin;
+    -webkit-mask-size: 100vmin;
     mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
     mask-position: center;
+    -webkit-mask-position: center;
 }
 
 .btn-size{
@@ -100,4 +103,18 @@
 .status-box{
     margin-top: 60px;
     font-size: 30px;
+}
+
+@media (max-width: 995px) {
+    .tool-box{
+        display:block;
+    }
+
+    .control-box{
+        margin:auto;
+    }
+
+    #slider {
+        width: 100%;
+    }
 }
