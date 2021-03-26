@@ -1,0 +1,103 @@
+.box-container{
+    position:relative;
+    width: 100%;
+    height: 500px;
+    margin-top: 80px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border: 6px solid #6c757d;
+    border-radius: 15px;
+}
+
+.image-object{
+    width: 100px;
+    height: 100px;
+}
+
+.control-box{
+    position:relative;
+    width:200px;
+    height:200px;
+    border:1px solid rgb(29, 28, 28);
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mask-effect{
+    position:absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    background-image:  url(../images/dog1.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* mask-image: url(solid/address-card.svg); */
+    -webkit-mask-image: url(solid/address-card.svg);
+    mask-size: 100vmin;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+.btn-size{
+    width:100px;
+}
+
+.tool-box{
+    display:flex;
+    justify-content: space-between;
+    padding:40px;
+}
+.slider-bar{
+    width:100%;
+}
+
+#slider
+{
+    width:400px;
+    background:rgb(79,129,189);
+    margin-top: 20px;
+}
+
+.slider-pos{
+    margin-top:100px;
+
+}
+.control-box>svg{
+    font-size:80px;
+}
+
+.control-box>svg:hover{
+    cursor:pointer;
+    color:#0095ff;
+}
+
+#btn_up{
+    position:absolute;
+    top: -20px;
+    left: 30%;
+}
+
+#btn_down{
+    position:absolute;
+    bottom: -20px;
+    left: 30%;
+}
+
+#btn_left{
+    position:absolute;
+    left: -20px;
+    top: 30%;
+}
+
+#btn_right{
+    position:absolute;
+    right: -20px;
+    top: 30%;
+}
+
+.status-box{
+    margin-top: 60px;
+    font-size: 30px;
+}

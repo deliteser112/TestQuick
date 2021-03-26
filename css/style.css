@@ -1,0 +1,111 @@
+.symbolset i {
+    width: 50px;
+    height: 50px;
+}
+
+.symbolset {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.symbolset i {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    display: block;
+    margin: 5px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.designs-single{
+    display: none;
+}
+
+.designs-thumbs{
+    display: block;
+    background-color: rgb(49, 48, 48);
+}
+/*  #########  Toggle display to non above  ########## */
+
+.designs-wrap {
+    background-color: #eee;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.backdrop_wrap {
+    display: inline-block;
+    position: relative;
+    width: 23%;
+}
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;  
+}
+
+span.badge.badge-secondary {
+    font-size: 136%;
+    margin-bottom: 9px;
+}
+
+
+
+
+.backdrop {
+    background: url(https://i.insider.com/5484d9d…);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    -webkit-mask-repeat: no-repeat;
+    padding-top: 100%;
+}
+
+/*  How to minimise this but make instantly available all 1872 solid icon masks ? */
+.address {
+  -webkit-mask-image: url(solid/address-card.svg); 
+  -webkit-mask-position-y: 3px;   /*  if needed this value will be provided to each SVG  */
+}
+.clock {
+  -webkit-mask-image: url(solid/apple-alt.svg);     
+}
+.atom {
+    -webkit-mask-image: url(solid/atom.svg);     
+  }
+  .baby {
+    -webkit-mask-image: url(solid/baby.svg);     
+  }
+
+
+.change-design-wrap{
+    background-color: rgb(89, 146, 192);
+    width: 100%;
+ 
+}
+
+.background-images-wrap{
+    background-color: #c0c5ca;
+    /*width: 100%;
+     height: 60vh; */
+}
+
+.masks-wrap {
+    background-color: #9e9c9c;
+    /*width: 100%;
+    height: 60vh; */
+}
+
+
+ul#bg-pills-tab {
+    border-bottom: 1px solid #007bff;
+}
+
