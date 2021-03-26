@@ -24,6 +24,11 @@
     <div class="container">
         <div class="box-container">
             <div class="mask-effect" id="dog_o"></div>
+            <div class="status-box">
+                X :<span id="coord_x">0</span><br />
+                Y :<span id="coord_y">0</span><br />
+                Z :<span id="valueSlide">0%</span>
+            </div>
         </div>
         <div class="tool-box">
             <div class="control-box">
@@ -31,18 +36,13 @@
                 <span class="iconify" id="btn_down" data-icon="dashicons:arrow-down-alt2" data-inline="false"></span>
                 <span class="iconify" id="btn_left" data-icon="dashicons:arrow-left-alt2" data-inline="false"></span>
                 <span class="iconify" id="btn_up" data-icon="dashicons:arrow-up-alt2" data-inline="false"></span>
-    
             </div>
             <form id="form1" runat="server">
                 <div class="slider-pos">
                     <div id="slider"></div><br />       
                 </div>  
             </form>
-            <div class="status-box">
-                X :<span id="coord_x">50px</span><br />
-                Y :<span id="coord_y">50px</span><br />
-                Zoom :<span id="valueSlide">1.00x</span>
-            </div>
+            
         </div>
     </div>
 </body>
